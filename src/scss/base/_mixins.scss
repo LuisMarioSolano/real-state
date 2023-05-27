@@ -57,4 +57,13 @@
     span {
         font-weight: 700;
     }
+
+    &::after {
+        content: '';
+        display: block;
+        height: 1rem;
+        width: 15rem;
+        margin-top: 1rem;
+        background-image: linear-gradient( to right, v.$primario 0%, v.$primario 50%, lighten(v.$primario, 20%) 50%, lighten(v.$primario, 20%) 100%);
+    }
 }
